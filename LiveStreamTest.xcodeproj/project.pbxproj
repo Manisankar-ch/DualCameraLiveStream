@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB7E88E02D77333C00E84505 /* AIAEC in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88DF2D77333C00E84505 /* AIAEC */; };
+		EB7E88E22D77333C00E84505 /* AIAECLL in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88E12D77333C00E84505 /* AIAECLL */; };
+		EB7E88E42D77333C00E84505 /* AINS in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88E32D77333C00E84505 /* AINS */; };
+		EB7E88E62D77333C00E84505 /* AINSLL in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88E52D77333C00E84505 /* AINSLL */; };
+		EB7E88E82D77333C00E84505 /* AudioBeauty in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88E72D77333C00E84505 /* AudioBeauty */; };
+		EB7E88EA2D77333C00E84505 /* ClearVision in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88E92D77333C00E84505 /* ClearVision */; };
+		EB7E88EC2D77333C00E84505 /* ContentInspect in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88EB2D77333C00E84505 /* ContentInspect */; };
+		EB7E88EE2D77333C00E84505 /* FaceCapture in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88ED2D77333C00E84505 /* FaceCapture */; };
+		EB7E88F02D77333C00E84505 /* FaceDetection in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88EF2D77333C00E84505 /* FaceDetection */; };
+		EB7E88F22D77333C00E84505 /* LipSync in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88F12D77333C00E84505 /* LipSync */; };
+		EB7E88F42D77333C00E84505 /* ReplayKit in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88F32D77333C00E84505 /* ReplayKit */; };
+		EB7E88F62D77333C00E84505 /* RtcBasic in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88F52D77333C00E84505 /* RtcBasic */; };
+		EB7E88F82D77333C00E84505 /* SpatialAudio in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88F72D77333C00E84505 /* SpatialAudio */; };
+		EB7E88FA2D77333C00E84505 /* VQA in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88F92D77333C00E84505 /* VQA */; };
+		EB7E88FC2D77333C00E84505 /* VideoAv1CodecDec in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88FB2D77333C00E84505 /* VideoAv1CodecDec */; };
+		EB7E88FE2D77333C00E84505 /* VideoAv1CodecEnc in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88FD2D77333C00E84505 /* VideoAv1CodecEnc */; };
+		EB7E89002D77333C00E84505 /* VideoCodecDec in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E88FF2D77333C00E84505 /* VideoCodecDec */; };
+		EB7E89022D77333C00E84505 /* VideoCodecEnc in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E89012D77333C00E84505 /* VideoCodecEnc */; };
+		EB7E89042D77333C00E84505 /* VirtualBackground in Frameworks */ = {isa = PBXBuildFile; productRef = EB7E89032D77333C00E84505 /* VirtualBackground */; };
+		EB7E89062D77383300E84505 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = EB7E89052D77383300E84505 /* PrivacyInfo.xcprivacy */; };
+		EBBD5B072D79818A00DF0BC2 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBD5B062D79818A00DF0BC2 /* ReplayKit.framework */; };
+		EBBD5B1D2D79818B00DF0BC2 /* LiveStreamBroadCast.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EBBD5B052D79818A00DF0BC2 /* LiveStreamBroadCast.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBBD5B1B2D79818B00DF0BC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB7E88922D772A5A00E84505 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBBD5B042D79818A00DF0BC2;
+			remoteInfo = LiveStreamBroadCast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EBBD5B1E2D79818B00DF0BC2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EBBD5B1D2D79818B00DF0BC2 /* LiveStreamBroadCast.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB7E889A2D772A5A00E84505 /* LiveStreamTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveStreamTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7E89052D77383300E84505 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		EBBD5B052D79818A00DF0BC2 /* LiveStreamBroadCast.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LiveStreamBroadCast.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBD5B062D79818A00DF0BC2 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		EBBD5B122D79818B00DF0BC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EB7E88AC2D772A5C00E84505 /* Exceptions for "LiveStreamTest" folder in "LiveStreamTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EB7E88992D772A5A00E84505 /* LiveStreamTest */;
+		};
+		EBBD5B262D79818B00DF0BC2 /* Exceptions for "LiveStreamBroadCast" folder in "LiveStreamBroadCast" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EBBD5B042D79818A00DF0BC2 /* LiveStreamBroadCast */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EB7E889C2D772A5A00E84505 /* LiveStreamTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EB7E88AC2D772A5C00E84505 /* Exceptions for "LiveStreamTest" folder in "LiveStreamTest" target */,
+			);
+			path = LiveStreamTest;
+			sourceTree = "<group>";
+		};
+		EBBD5B082D79818A00DF0BC2 /* LiveStreamBroadCast */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EBBD5B262D79818B00DF0BC2 /* Exceptions for "LiveStreamBroadCast" folder in "LiveStreamBroadCast" target */,
+			);
+			path = LiveStreamBroadCast;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB7E88972D772A5A00E84505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7E89022D77333C00E84505 /* VideoCodecEnc in Frameworks */,
+				EB7E88F42D77333C00E84505 /* ReplayKit in Frameworks */,
+				EB7E88EA2D77333C00E84505 /* ClearVision in Frameworks */,
+				EB7E88E22D77333C00E84505 /* AIAECLL in Frameworks */,
+				EB7E88FE2D77333C00E84505 /* VideoAv1CodecEnc in Frameworks */,
+				EB7E88F82D77333C00E84505 /* SpatialAudio in Frameworks */,
+				EB7E88EC2D77333C00E84505 /* ContentInspect in Frameworks */,
+				EB7E88FA2D77333C00E84505 /* VQA in Frameworks */,
+				EB7E88F02D77333C00E84505 /* FaceDetection in Frameworks */,
+				EB7E88E62D77333C00E84505 /* AINSLL in Frameworks */,
+				EB7E88FC2D77333C00E84505 /* VideoAv1CodecDec in Frameworks */,
+				EB7E88E02D77333C00E84505 /* AIAEC in Frameworks */,
+				EB7E89002D77333C00E84505 /* VideoCodecDec in Frameworks */,
+				EB7E88E82D77333C00E84505 /* AudioBeauty in Frameworks */,
+				EB7E89042D77333C00E84505 /* VirtualBackground in Frameworks */,
+				EB7E88F22D77333C00E84505 /* LipSync in Frameworks */,
+				EB7E88EE2D77333C00E84505 /* FaceCapture in Frameworks */,
+				EB7E88E42D77333C00E84505 /* AINS in Frameworks */,
+				EB7E88F62D77333C00E84505 /* RtcBasic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBD5B022D79818A00DF0BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBD5B072D79818A00DF0BC2 /* ReplayKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB7E88912D772A5A00E84505 = {
+			isa = PBXGroup;
+			children = (
+				EB7E89052D77383300E84505 /* PrivacyInfo.xcprivacy */,
+				EB7E889C2D772A5A00E84505 /* LiveStreamTest */,
+				EBBD5B082D79818A00DF0BC2 /* LiveStreamBroadCast */,
+				EB7E88B62D77324300E84505 /* Frameworks */,
+				EB7E889B2D772A5A00E84505 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB7E889B2D772A5A00E84505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB7E889A2D772A5A00E84505 /* LiveStreamTest.app */,
+				EBBD5B052D79818A00DF0BC2 /* LiveStreamBroadCast.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB7E88B62D77324300E84505 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBBD5B062D79818A00DF0BC2 /* ReplayKit.framework */,
+				EBBD5B122D79818B00DF0BC2 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB7E88992D772A5A00E84505 /* LiveStreamTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7E88AD2D772A5C00E84505 /* Build configuration list for PBXNativeTarget "LiveStreamTest" */;
+			buildPhases = (
+				EB7E88962D772A5A00E84505 /* Sources */,
+				EB7E88972D772A5A00E84505 /* Frameworks */,
+				EB7E88982D772A5A00E84505 /* Resources */,
+				EBBD5B1E2D79818B00DF0BC2 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBBD5B1C2D79818B00DF0BC2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EB7E889C2D772A5A00E84505 /* LiveStreamTest */,
+			);
+			name = LiveStreamTest;
+			packageProductDependencies = (
+				EB7E88DF2D77333C00E84505 /* AIAEC */,
+				EB7E88E12D77333C00E84505 /* AIAECLL */,
+				EB7E88E32D77333C00E84505 /* AINS */,
+				EB7E88E52D77333C00E84505 /* AINSLL */,
+				EB7E88E72D77333C00E84505 /* AudioBeauty */,
+				EB7E88E92D77333C00E84505 /* ClearVision */,
+				EB7E88EB2D77333C00E84505 /* ContentInspect */,
+				EB7E88ED2D77333C00E84505 /* FaceCapture */,
+				EB7E88EF2D77333C00E84505 /* FaceDetection */,
+				EB7E88F12D77333C00E84505 /* LipSync */,
+				EB7E88F32D77333C00E84505 /* ReplayKit */,
+				EB7E88F52D77333C00E84505 /* RtcBasic */,
+				EB7E88F72D77333C00E84505 /* SpatialAudio */,
+				EB7E88F92D77333C00E84505 /* VQA */,
+				EB7E88FB2D77333C00E84505 /* VideoAv1CodecDec */,
+				EB7E88FD2D77333C00E84505 /* VideoAv1CodecEnc */,
+				EB7E88FF2D77333C00E84505 /* VideoCodecDec */,
+				EB7E89012D77333C00E84505 /* VideoCodecEnc */,
+				EB7E89032D77333C00E84505 /* VirtualBackground */,
+			);
+			productName = LiveStreamTest;
+			productReference = EB7E889A2D772A5A00E84505 /* LiveStreamTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBBD5B042D79818A00DF0BC2 /* LiveStreamBroadCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBBD5B252D79818B00DF0BC2 /* Build configuration list for PBXNativeTarget "LiveStreamBroadCast" */;
+			buildPhases = (
+				EBBD5B012D79818A00DF0BC2 /* Sources */,
+				EBBD5B022D79818A00DF0BC2 /* Frameworks */,
+				EBBD5B032D79818A00DF0BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EBBD5B082D79818A00DF0BC2 /* LiveStreamBroadCast */,
+			);
+			name = LiveStreamBroadCast;
+			packageProductDependencies = (
+			);
+			productName = LiveStreamBroadCast;
+			productReference = EBBD5B052D79818A00DF0BC2 /* LiveStreamBroadCast.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB7E88922D772A5A00E84505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					EB7E88992D772A5A00E84505 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					EBBD5B042D79818A00DF0BC2 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = EB7E88952D772A5A00E84505 /* Build configuration list for PBXProject "LiveStreamTest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB7E88912D772A5A00E84505;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EB7E889B2D772A5A00E84505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB7E88992D772A5A00E84505 /* LiveStreamTest */,
+				EBBD5B042D79818A00DF0BC2 /* LiveStreamBroadCast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB7E88982D772A5A00E84505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7E89062D77383300E84505 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBD5B032D79818A00DF0BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB7E88962D772A5A00E84505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBD5B012D79818A00DF0BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBBD5B1C2D79818B00DF0BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBBD5B042D79818A00DF0BC2 /* LiveStreamBroadCast */;
+			targetProxy = EBBD5B1B2D79818B00DF0BC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB7E88AE2D772A5C00E84505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L92D9R9A7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveStreamTest/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App wants to access camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App wants to access Microphone";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.AwesomeProjects1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB7E88AF2D772A5C00E84505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L92D9R9A7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveStreamTest/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App wants to access camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App wants to access Microphone";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.AwesomeProjects1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB7E88B02D772A5C00E84505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB7E88B12D772A5C00E84505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBBD5B1F2D79818B00DF0BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L92D9R9A7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveStreamBroadCast/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LiveStreamBroadCast;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.AwesomeProjects1.LiveStreamBroadCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBBD5B202D79818B00DF0BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L92D9R9A7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveStreamBroadCast/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LiveStreamBroadCast;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.AwesomeProjects1.LiveStreamBroadCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB7E88952D772A5A00E84505 /* Build configuration list for PBXProject "LiveStreamTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7E88B02D772A5C00E84505 /* Debug */,
+				EB7E88B12D772A5C00E84505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7E88AD2D772A5C00E84505 /* Build configuration list for PBXNativeTarget "LiveStreamTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7E88AE2D772A5C00E84505 /* Debug */,
+				EB7E88AF2D772A5C00E84505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBBD5B252D79818B00DF0BC2 /* Build configuration list for PBXNativeTarget "LiveStreamBroadCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBD5B1F2D79818B00DF0BC2 /* Debug */,
+				EBBD5B202D79818B00DF0BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB7E88DF2D77333C00E84505 /* AIAEC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AIAEC;
+		};
+		EB7E88E12D77333C00E84505 /* AIAECLL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AIAECLL;
+		};
+		EB7E88E32D77333C00E84505 /* AINS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AINS;
+		};
+		EB7E88E52D77333C00E84505 /* AINSLL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AINSLL;
+		};
+		EB7E88E72D77333C00E84505 /* AudioBeauty */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AudioBeauty;
+		};
+		EB7E88E92D77333C00E84505 /* ClearVision */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = ClearVision;
+		};
+		EB7E88EB2D77333C00E84505 /* ContentInspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = ContentInspect;
+		};
+		EB7E88ED2D77333C00E84505 /* FaceCapture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = FaceCapture;
+		};
+		EB7E88EF2D77333C00E84505 /* FaceDetection */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = FaceDetection;
+		};
+		EB7E88F12D77333C00E84505 /* LipSync */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = LipSync;
+		};
+		EB7E88F32D77333C00E84505 /* ReplayKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = ReplayKit;
+		};
+		EB7E88F52D77333C00E84505 /* RtcBasic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = RtcBasic;
+		};
+		EB7E88F72D77333C00E84505 /* SpatialAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = SpatialAudio;
+		};
+		EB7E88F92D77333C00E84505 /* VQA */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VQA;
+		};
+		EB7E88FB2D77333C00E84505 /* VideoAv1CodecDec */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VideoAv1CodecDec;
+		};
+		EB7E88FD2D77333C00E84505 /* VideoAv1CodecEnc */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VideoAv1CodecEnc;
+		};
+		EB7E88FF2D77333C00E84505 /* VideoCodecDec */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VideoCodecDec;
+		};
+		EB7E89012D77333C00E84505 /* VideoCodecEnc */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VideoCodecEnc;
+		};
+		EB7E89032D77333C00E84505 /* VirtualBackground */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7E88DE2D77333C00E84505 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VirtualBackground;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EB7E88922D772A5A00E84505 /* Project object */;
+}
