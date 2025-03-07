@@ -24,4 +24,5 @@ Swift: 5.8+
 
 Agora SDK (via Swift Package Manager)
 
+Add your APP ID, Token and Channel name using Agora developer console.
 
